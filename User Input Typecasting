@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int a;
+  float dp;
+  cout<<"Enter Integer number You want to convert into floal ";
+  cin>>a;
+  float iif= (float) a;
+  cout<<"\n enter Decimal Point number e.g.(0.4) ";
+  cin>>dp;
+  cout<<"\n The int to float converted number is "<<a+dp<<endl;
+  cout<<"The size of the number before was "<<sizeof(a)<<endl;
+  cout<<"Now size of the number is "<<sizeof(iif);
+
+  return 0;
+}        
