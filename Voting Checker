@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+  int a;
+  cout<<"Enter Your age "<<endl;
+  cin>>a;
+  if(!(cin>>a)){
+    cout<<"Enter Valid Value";
+    return 0;
+  }
+  if ((a<18) && (a>=1)){
+    cout<<"\n You are not eligble to vote kid"<<endl;
+  }
+  else if(a==18){
+    cout<<"\n Your are eligble to vote but do you think that you should vote";
+  }
+  else if(a==0){
+    cout<<"\n You are not born so get out";
+  }
+  else if(a<0){
+    cout<<"Really";
+  }
+  else{
+    cout<<"\n You are Fully Eligible for Voting";
+  }
+  return 0;
+}
